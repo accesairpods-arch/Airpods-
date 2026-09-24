@@ -47,11 +47,11 @@
     {
       "id": 9,
       "name": "Cargador USB-C 35W",
-      "description": "Cargador rápido USB-C de 35W",
-      "price": 35,
+      "description": "Cargador rápido USB-C de 35W — una sola entrada USB-C",
+      "price": 14.99,
       "oldPrice": null,
-      "badge": "NUEVO",
-      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MNWM3?wid=1144&hei=1144&fmt=jpeg&qlt=90",
+      "badge": "OFERTA",
+      "image": "https://www.mophie.com/cdn/shop/files/409919985_Hero.jpg?v=1765305760&width=2000",
       "active": true
     },
     {
