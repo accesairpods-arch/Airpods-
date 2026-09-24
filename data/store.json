@@ -53,6 +53,16 @@
       "badge": "NUEVO",
       "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MNWM3?wid=1144&hei=1144&fmt=jpeg&qlt=90",
       "active": true
+    },
+    {
+      "id": 10,
+      "name": "Cubo de carga 35W",
+      "description": "Cubo de carga rápido de 35 watts",
+      "price": 35,
+      "oldPrice": null,
+      "badge": "NUEVO",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MNWM3?wid=1144&hei=1144&fmt=jpeg&qlt=90",
+      "active": true
     }
   ]
 }
