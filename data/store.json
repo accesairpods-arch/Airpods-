@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "whatsapp": "593987302507",
+    "storeName": "AirPods Quito"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "AirPods Pro",
+      "description": "Audífonos inalámbricos",
+      "price": 49.99,
+      "oldPrice": 59.99,
+      "badge": "MÁS VENDIDO",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "AirPods",
+      "description": "Diseño inalámbrico y compacto",
+      "price": 34.99,
+      "oldPrice": 39.99,
+      "badge": "OFERTA",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Cargador USB-C",
+      "description": "Carga práctica para tu equipo",
+      "price": 12.99,
+      "oldPrice": null,
+      "badge": "NUEVO",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Cable USB-C",
+      "description": "Cable para carga y conexión",
+      "price": 8.99,
+      "oldPrice": null,
+      "badge": "POPULAR",
+      "image": "",
+      "active": true
+    }
+  ]
+}
