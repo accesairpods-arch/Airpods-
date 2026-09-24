@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://accesairpods-arch.github.io/Airpods-/sitemap.xml
