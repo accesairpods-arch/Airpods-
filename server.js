@@ -30,7 +30,6 @@ const readDB=()=>JSON.parse(fs.readFileSync(dbFile,"utf8"));
 const writeDB=x=>fs.writeFileSync(dbFile,JSON.stringify(x,null,2));
 
 function auth(req,res,next){if(req.session.admin)return next();res.status(401).json({error:"No autorizado"});}const upload = multer({ storage: multer.diskStorage({ destination: uploadDir, filename: (req, file, cb) => { const ext = path.extname(file.originalname); cb(null, Date.now() + ext); } }), limits: { fileSize: 5 * 1024 * 1024 } });
-const upload = multer({ storage: multer.diskStorage({ destination: uploadDir, filename: (req, file, cb) => { const ext = path.extname(file.originalname); cb(null, Date.now() + ext); } }), limits: { fileSize: 5 * 1024 * 1024 } });
 app.use(express.static(path.join(__dirname,"public")));
 app.get("/api/store",(req,res)=>{const db=readDB();res.json({settings:{...db.settings,whatsapp:db.settings.whatsapp},products:db.products.filter(p=>p.active)});});
 app.post("/api/login",(req,res)=>{if(req.body.username===ADMIN_USER && req.body.password===ADMIN_PASSWORD){req.session.admin=true;return res.json({ok:true})}res.status(401).json({error:"Credenciales incorrectas"});});
