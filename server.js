@@ -42,4 +42,4 @@ app.put("/api/products/:id",auth,(req,res)=>{const db=readDB();const p=db.produc
 app.delete("/api/products/:id",auth,(req,res)=>{const db=readDB();db.products=db.products.filter(x=>x.id!=req.params.id);writeDB(db);res.json({ok:true})});
 app.post("/api/upload",auth,upload.single("image"),(req,res)=>res.json({url:"/uploads/"+req.file.filename}));
 app.get("/admin",(req,res)=>res.sendFile(path.join(__dirname,"public","admin.html")));
-app.listen(PORT,()=>console.log("AirPods Quito running on http://localhost:"+PORT));
+app.console.log("AirPods Quito running on port "+PORT)
