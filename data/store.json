@@ -53,16 +53,6 @@
       "badge": "OFERTA",
       "image": "https://www.mophie.com/cdn/shop/files/409919985_Hero.jpg?v=1765305760&width=2000",
       "active": true
-    },
-    {
-      "id": 10,
-      "name": "Cubo de carga 35W",
-      "description": "Cubo de carga rápido de 35 watts — una sola entrada USB-C",
-      "price": 35,
-      "oldPrice": null,
-      "badge": "NUEVO",
-      "image": "https://www.mophie.com/cdn/shop/files/409919985_Hero.jpg?v=1765305760&width=2000",
-      "active": true
     }
   ]
 }
