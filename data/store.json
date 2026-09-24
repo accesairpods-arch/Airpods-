@@ -11,27 +11,27 @@
       "price": 49.99,
       "oldPrice": 59.99,
       "badge": "MÁS VENDIDO",
-      "image": "",
+      "image": "https://forcecom.kz/upload/iblock/549/1ejfwc17k60si8rmw0k7t2enmm3bzgke.jpg",
       "active": true
     },
     {
       "id": 2,
-      "name": "AirPods",
+      "name": "AirPods 4",
       "description": "Diseño inalámbrico y compacto",
       "price": 34.99,
       "oldPrice": 39.99,
       "badge": "OFERTA",
-      "image": "",
+      "image": "https://cdn.dudulluarcelik.com/_ipx/w_900/https%3A/cdn.dudulluarcelik.com/Data/product/dudullu/product-image-apple-airpods-4-kulaklik-4ae92305-5bfe-4d87-8d05-8a0943947990-B.webp",
       "active": true
     },
     {
       "id": 3,
-      "name": "Cargador USB-C",
-      "description": "Carga práctica para tu equipo",
+      "name": "Cargador USB-C 20W",
+      "description": "Adaptador de carga USB-C",
       "price": 12.99,
       "oldPrice": null,
       "badge": "NUEVO",
-      "image": "",
+      "image": "https://cdn.fastcare.vn/fastcare/2023/03/sac-nhanh-apple-type-c-20w.jpg",
       "active": true
     },
     {
@@ -41,7 +41,7 @@
       "price": 8.99,
       "oldPrice": null,
       "badge": "POPULAR",
-      "image": "",
+      "image": "https://down-tw.img.susercontent.com/file/tw-11134207-7r990-lo4zpsoreyrxf4",
       "active": true
     }
   ]
