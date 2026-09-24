@@ -16,7 +16,7 @@ footer{border-top:1px solid #292c34;padding:30px 0;color:#999}.overlay{display:n
 <footer><div class="wrap"><b>AIRPODS QUITO</b> · Audífonos y accesorios</div></footer>
 <div class="overlay" id="overlay" onclick="if(event.target===this)closeCart()"><div class="panel"><div class="row"><h2>🛒 Tu carrito</h2><button class="close" type="button" onclick="closeCart()" aria-label="Cerrar carrito">×</button></div><div id="items"></div><h3>Total: $<span id="total">0.00</span></h3><button class="wa" type="button" onclick="send()">Enviar pedido por WhatsApp</button></div></div>
 <script>
-let store={products:[],settings:{whatsapp:""}};let cart=[];
+let store={products:[],settings:{whatsapp:""}};let cart=[];function addProduct(id){add(id);}
 const $=id=>document.getElementById(id);const money=n=>Number(n).toFixed(2);
 function add(id){const p=store.products.find(x=>x.id===id);if(!p)return;const item=cart.find(x=>x.id===id);if(item)item.qty++;else cart.push({...p,qty:1});renderCart();openCart();}
 function removeItem(id){cart=cart.filter(x=>x.id!==id);renderCart();}
