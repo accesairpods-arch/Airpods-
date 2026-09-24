@@ -43,6 +43,16 @@
       "badge": "POPULAR",
       "image": "https://down-tw.img.susercontent.com/file/tw-11134207-7r990-lo4zpsoreyrxf4",
       "active": true
+    },
+    {
+      "id": 9,
+      "name": "Cargador USB-C 35W",
+      "description": "Cargador rápido USB-C de 35W",
+      "price": 35,
+      "oldPrice": null,
+      "badge": "NUEVO",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MNWM3?wid=1144&hei=1144&fmt=jpeg&qlt=90",
+      "active": true
     }
   ]
 }
